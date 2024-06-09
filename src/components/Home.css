@@ -1,0 +1,20 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Asegúrate de que los elementos comiencen desde el principio del contenedor */
+    padding-top: 20px; /* Ajusta este valor según sea necesario para que el contenido esté más arriba */
+    width: 100%;
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del ancho */
+  }
+  
+  .home-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .home-image {
+    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+  }
+  
