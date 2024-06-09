@@ -1,32 +1,32 @@
 .detail-container {
   display: flex;
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
-  padding-top: 20px; /* Ajustamos según sea necesario */
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
   box-sizing: border-box;
   width: 100%;
 }
 
 .detail-content {
-  display: flex; /* Utilizamos flexbox para el contenedor secundario */
-  align-items: center; /* Centra verticalmente */
-  border: 1px solid #ccc; /* Añadimos un borde alrededor del contenedor */
-  padding: 20px; /* Añadimos un padding alrededor del contenido */
-  border-radius: 8px; /* Añadimos bordes redondeados */
-  background-color: #f9f9f9; /* Añadimos un color de fondo */
+  display: flex; 
+  align-items: center; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 .pokemon-info {
-  text-align: left; /* Alineamos el texto a la izquierda */
-  margin-left: 20px; /* Agregamos un margen a la izquierda para separar la imagen del texto */
+  text-align: left;
+  margin-left: 20px; 
 }
 
 .pokemon-image {
-  width: 200px; /* Ajustamos según sea necesario */
+  width: 200px; 
 }
 
 .pokemon-types {
-  color: gray; /* Añadimos color gris para el texto del tipo de Pokémon */
-  margin-top: 10px; /* Añadimos un margen superior para separarlo de los demás atributos */
+  color: gray;
+  margin-top: 10px;
 }
 

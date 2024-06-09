@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 20px; /* Utilizamos min-height para asegurarnos de que el contenedor sea al menos tan alto como la ventana del navegador */
-    width: 100%; /* Ajustamos el ancho para que ocupe todo el ancho de la página */
-    box-sizing: border-box; /* Incluimos padding y border en el cálculo del ancho */
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .pokemones-title {
@@ -15,6 +15,6 @@
   }
   
   .pokemones-image {
-    width: 200px; /* Ajustamos el ancho de la imagen según sea necesario */
+    width: 200px;
   }
   
